@@ -49,3 +49,46 @@ ul li a:hover::after{
 .navbar-icons{
     margin-left: 40px;
 }
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+.left-column,.right-column{
+   flex-basis: 50%; 
+}
+.right-column img{
+    width: 100%;
+
+}
+.sharch-box{
+    width: 45%;
+    display: flex;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ddd; 
+    margin: 10px 0 30px;  
+}
+.sharch-box img{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.sharch-box input{
+    width: 100%;
+    margin-left: 15px;
+    font-size: 17px;
+    border: 0;
+    outline: none;
+}
+.left-column h1{
+    font-size: 100px;
+}.left-column h3{
+    font-size: 35px;
+}
+span{
+    color: #f14a60;
+}
+.left-column p{
+    font-size: 14px;
+    color: #999;
+    margin: 50px 0;
+}
